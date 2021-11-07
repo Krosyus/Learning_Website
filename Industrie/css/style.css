@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+}
+
+/* Page */
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+header.header img{
+    width: 150px;
+}
+section.top-page{
+    background: url("../images/Projet/Abstract.jpg");
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* Page de bienvenue */
+
+.landing-page{
+    padding: 20px 50px;
+}
+
+.big-title{
+    color: red;
+    font-size: 80px; /*Je met la taille a 80 pixels prsk pourquoi pas */
+    font-family: 'Abril FatFace', cursive; /* une police pas piquer des anes thon*/
+    font-weight: 100;
+}
+
+.medium-title{
+    color: red;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+
+.Scrool-down{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+
+
+/* Menu de Navigation */
+
+nav.Nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.Nav li{
+    color: white;
+}
+
+/* Service */
+.services{
+    display: flex;
+    justify-content: space-evenly;/*Pour mettre un espqce entre les ellements*/
+    margin: 50px;
+}
+
+.service-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon{
+    font-size: 50px;
+    color: red;
+}
+
+.section-title{
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Abril FatFace' cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: violet;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.best-item{
+    margin: 100px;
+}
+
+.best-projet{
+    background-color: black;
+    min-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.projet-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.projet1{
+    background-image: url(../images/Projet/Data-Image.jpeg);
+}
+
+.projet2{
+    background-image: url(../images/Projet/Android.jpg);
+}
+
+.projet3{
+    background-image: url(../images/Projet/Android2.jpg);
+}
+
+/*Details*/
+
+.projet-detail{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 0px;
+
+}
+
+.projet-name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.projet-difficult{
+    color: red;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 3px;
+}
+
+/*Pied de page*/
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgu{
+    text-decoration: none;
+    color: black;
+}
