@@ -1,6 +1,6 @@
 <?php 
 
-//var_dump(PDO::getAvailableDrivers()); // voir les BDD pris en compte
+var_dump(PDO::getAvailableDrivers()); // voir les BDD pris en compte
 
 // Database Credentials
 define('DB_HOST','localhost');
